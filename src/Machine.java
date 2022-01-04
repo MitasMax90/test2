@@ -6,7 +6,7 @@ public class Machine {
     void makeDetails(int amount) {
         if (oil >= amount) {
             oil -= amount;
-            System.out.println(name + ": Work is donexfgnhjsrth!");
+            System.out.println(name + ": Work is done!");
         } else if (oil < amount) {
             System.out.println(name + ": We are need more oil");
             isOff = true;
